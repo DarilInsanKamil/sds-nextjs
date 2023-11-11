@@ -29,12 +29,12 @@ const ServiceHomeSection = () => {
               <h4 className="font-semibold font-montserrat text-gray-200">
                 Tax
               </h4>
-              <p className="font-semibold font-nunito text-xl max-w-small text-my-black">
+              <p className="font-semibold font-nunito text-xl  text-my-black">
                 Unlock Financial Success with Our Expert{" "}
                 <span className="text-my-green"> Tax</span> Services
               </p>
             </div>
-            <button className="md:block hidden absolute bottom-5 end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
+            <button  className="mt-2 md:absolute md:bottom-5 md:end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
               Learn More
             </button>
           </div>
@@ -43,13 +43,13 @@ const ServiceHomeSection = () => {
               <h4 className="font-semibold font-montserrat text-gray-200">
                 Feasibility
               </h4>
-              <p className="font-semibold font-nunito text-xl max-w-small text-my-black">
+              <p className="font-semibold font-nunito text-xl  text-my-black">
                 Empowering Your Vision: Expert
                 <span className="text-my-green"> Feasibility</span> Services at
                 SDS
               </p>
             </div>
-            <button className="md:block hidden absolute bottom-5 end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
+            <button  className="mt-2 md:absolute md:bottom-5 md:end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
               Learn More
             </button>
           </div>
@@ -58,13 +58,13 @@ const ServiceHomeSection = () => {
               <h4 className="font-semibold font-montserrat text-gray-200">
                 Accounting
               </h4>
-              <p className="font-semibold font-nunito text-xl max-w-small text-my-black">
+              <p className="font-semibold font-nunito text-xl  text-my-black">
                 Precision
                 Accounting Solutions
                 Financial for Your
               </p>
             </div>
-            <button className="md:block hidden absolute bottom-5 end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
+            <button className="mt-2 md:absolute md:bottom-5 md:end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
               Learn More
             </button>
           </div>
@@ -73,13 +73,13 @@ const ServiceHomeSection = () => {
               <h4 className="font-semibold font-montserrat text-gray-200">
                 Financial
               </h4>
-              <p className="font-semibold font-nunito text-xl max-w-small text-my-black">
+              <p className="font-semibold font-nunito text-xl  text-my-black">
                 Elevate Your Financial
                 <span className="text-my-green"> Financial</span> Journey with
                 US
               </p>
             </div>
-            <button className="md:block hidden absolute bottom-5 end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
+            <button  className="mt-2 md:absolute md:bottom-5 md:end-5 px-4 py-2 text-my-green border font-semibold border-my-green rounded-md hover:bg-my-green hover:text-white transition-all">
               Learn More
             </button>
           </div>

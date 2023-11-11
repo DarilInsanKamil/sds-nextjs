@@ -14,7 +14,7 @@ const HerosSectionHome = () => {
             draggable="false"
           />
         </div>
-        <div className="col-start-1 md:col-start-2 md:col-span-4 col-span-6 flex flex-col gap-5">
+        <div className="col-start-1 md:col-start-2 md:col-span-4 col-span-6 flex flex-col gap-5 mt-5 md:mt-0">
           <h1 className="md:text-very-big text-6xl text-my-black font-bold leading-hero tracking-tight">
             Let's make it <span className="text-my-green">Happen</span>
           </h1>

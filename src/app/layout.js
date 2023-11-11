@@ -1,7 +1,21 @@
-import { Inter } from 'next/font/google'
+import { Montserrat, Nunito } from 'next/font/google'
 import './globals.css'
+import NavigationBar from '@/components/utils/NavigationBar';
 
-const inter = Inter({ subsets: ['latin'] })
+const montsserrat = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-montserrat",
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-nunito",
+});
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +25,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montsserrat.variable} ${nunito.variable}`}>
+        <NavigationBar />
+
+        {children}
+      </body>
     </html>
   )
 }

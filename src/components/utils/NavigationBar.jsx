@@ -20,7 +20,7 @@ const NavigationBar = () => {
           <Link href="/service">Service</Link>
         </li>
         <li className="hover:underline hover:underline-my-green hover:underline-offset-12 cursor-pointer hover:text-my-green">
-          Career
+          <Link href="/career">Career</Link>
         </li>
         <li className="hover:underline hover:underline-my-green hover:underline-offset-12 cursor-pointer hover:text-my-green">
           Contact

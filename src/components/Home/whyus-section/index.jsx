@@ -3,7 +3,7 @@ import React from "react";
 
 const WhyUsSectionHome = () => {
   return (
-    <section className="p-5">
+    <section className="p-5 md:p-0">
       <div className="grid md:grid-cols-12 grid-cols-6 items-center">
       <div className="md:col-start-7 col-start-1 col-span-6 md:hidden block md:mb-0 mb-3">
           <Image

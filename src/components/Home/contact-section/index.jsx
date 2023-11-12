@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSectionHome = () => {
   return (
-    <section className="bg-contact-home bg-no-repeat p-10 text-white text-center">
+    <section className="bg-contact-home bg-no-repeat bg-cover bg-center p-10 text-white text-center w-full">
       <div>
         <h3 className="font-montserrat text-2xl">Contact US to Secure your Management Services Needs</h3>
         <p className="font-nunito text-gray-400 my-3">
